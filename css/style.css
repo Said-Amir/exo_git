@@ -6,6 +6,7 @@ body{
     flex-wrap: wrap;
     margin: 0%;
 }
+
 *{
     font-family: 'Ubuntu', sans-serif;
 }
@@ -17,9 +18,11 @@ body{
 .white{
     color: white;
 }
+
 /* ****************************** FIN GENERALITES ******************************************* */
 
-/* ****************************** DEBUT HEADER ************************************************/
+/* ****************************** DEBUT HEADER ********************************************** */
+
 header{
     background-color: #1A1A1D;
     padding: 0 20px;
@@ -36,12 +39,15 @@ nav ul{
     display: flex;
     list-style: none;
 }
-
+ul img{
+    width: 3.5vw;
+}
 nav ul a{
     margin: 10px;
     text-align: center;
     text-decoration: none;
 }
+
 ul a span{
     display: block;
     text-align: center;
@@ -198,7 +204,7 @@ footer{
     justify-content: space-around;
 }
 footer img{
-    width: 60px;
+    width: 3.5vw;
     margin-top: 20px;
 }
 
