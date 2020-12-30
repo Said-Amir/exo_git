@@ -1,0 +1,220 @@
+/* ****************************** GENERALITES ********************************************** */
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0%;
+}
+*{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 60%;
+    box-shadow: -2px 0px 20px rgb(196, 196, 196), 2px 0px 20px rgb(196, 196, 196);
+}
+.white{
+    color: white;
+}
+/* ****************************** FIN GENERALITES ******************************************* */
+
+/* ****************************** DEBUT HEADER ************************************************/
+header{
+    background-color: #1A1A1D;
+    padding: 0 20px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+}
+
+nav ul a{
+    margin: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+ul a span{
+    display: block;
+    text-align: center;
+}
+
+/* ****************************** FIN HEADER ************************************************ */
+
+/* *************************** DEBUT SECTION HOME ******************************************** */
+
+#home img{
+    width: 100%;
+}
+
+/* *********************************   FIN SECTION HOME ************************************** */
+
+/* ********************************** DEBUT SECTION COMMUNICATION ***************************  */
+
+#communication{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+    margin-bottom: 30px;
+}
+
+.textCommunication{
+    width: 50%;
+}
+
+.textCommunication h1{
+    font-size: xx-large;
+}
+
+/* ********************************** FIN SECTION COMMUNICATION ******************************** */
+
+/* ********************************** DEBUT SECTION ETAPES ************************************* */
+
+#etapes{
+    background-color: #334D5C;
+    justify-content: center;
+}
+
+.enTeteEtapes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.enTeteEtapes img{
+    margin-left: 120px;
+}
+#etapes h1{
+    display: inline;
+    font-size: 50px;
+}
+
+#etapes h3{
+    font-size: 35px;
+}
+
+.sousEtapes{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.sousEtapes div{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sousEtapes div h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sousEtapes div img{
+    width: 150px;
+}
+
+.sousEtapes div button{
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+}
+/* ********************************** FIN SECTION ETAPES *************************************** */
+
+/* ************************************ DEBUT SECTION OUTILS *********************************** */
+
+#outils{
+    background-color: white;
+    justify-content: center;
+}
+
+.enTeteOutils{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.enTeteOutils img{
+    margin-left: 120px;
+}
+#outils h1{
+    display: inline;
+    font-size: 50px;
+}
+
+#outils h3{
+    font-size: 35px;
+}
+
+.sousOutils{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+.sousOutils div{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.sousOutils div h2{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.sousOutils div img{
+    width: 150px;
+}
+
+.sousOutils div button{
+    width: 100%;
+    height: 50px;
+    font-weight: bold;
+    background-color: #393A3B;
+}
+
+/* ******************************* FIN SECTION OUTILS ***************************************** */
+
+/* ***************************************** DEBUT FOOTER ************************************ */
+footer{
+    background-color: #393A3B;
+}
+.containerFooter{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+footer img{
+    width: 60px;
+    margin-top: 20px;
+}
+
+.imageCentre{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.packs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cgv span{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3px;
+}
+
+/* ************************************** FIN FOOTER ************************************** */
